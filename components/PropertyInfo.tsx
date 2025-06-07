@@ -1,5 +1,5 @@
 import React from 'react';
-import { HomeIcon, PhoneIcon, UserIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
+import { HomeIcon, PhoneIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 
 const PropertyInfo: React.FC = () => {
   return (
