@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar: React.FC = () => {
   return (
     <nav className="w-full fixed top-0 left-0 z-30 flex items-center justify-between px-8 py-6 text-white drop-shadow-2xl">
-      <div className="text-2xl font-semibold tracking-widest">JK</div>
+      <div className="text-2xl font-semibold tracking-widest">SPRUCE</div>
       <ul className="hidden md:flex space-x-8 text-lg">
         <li><a href="#propertyinfo" className="hover:underline">Overview</a></li>
         <li><a href="#gallery" className="hover:underline">Gallery</a></li>
