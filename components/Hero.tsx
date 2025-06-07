@@ -28,7 +28,8 @@ const Hero: React.FC = () => {
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-center text-white">
         <h1 className="text-5xl md:text-7xl font-light mb-4 drop-shadow-lg">3480 Spruce Ave</h1>
-        <div className="text-2xl md:text-3xl font-light mb-6 drop-shadow">South Lake Tahoe, California</div>
+        <div className="text-2xl md:text-3xl font-light mb-2 drop-shadow">South Lake Tahoe, California</div>
+        <div className="text-3xl md:text-4xl font-bold mb-6 drop-shadow text-green-300">$4,500/mo</div>
         <div className="flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-8 text-lg font-light mb-8 drop-shadow">
           <span>4 Bed</span>
           <span>2 Bath</span>

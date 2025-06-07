@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import { HomeIcon, PhoneIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 
 const ContactForm: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
