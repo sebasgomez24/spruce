@@ -67,7 +67,7 @@ const Gallery: React.FC = () => {
           <div className="flex items-center justify-center w-full max-w-6xl h-[80vh] relative">
             <button
               onClick={goLeft}
-              className="absolute left-0 top-1/2 -translate-y-1/2 bg-black bg-opacity-40 hover:bg-opacity-70 text-white rounded-full p-2 text-2xl focus:outline-none"
+              className={`absolute left-0 top-1/2 -translate-y-1/2 bg-black bg-opacity-40 hover:bg-opacity-70 text-white rounded-full p-2 text-2xl focus:outline-none transition-opacity ${selectedIdx === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
               aria-label="Previous image"
               disabled={selectedIdx === 0}
               tabIndex={0}
