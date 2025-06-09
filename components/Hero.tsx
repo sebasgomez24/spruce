@@ -7,14 +7,14 @@ const Hero: React.FC = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
-        src="/images/flyover.mp4"
+        src="/images/quickvid.mov"
         autoPlay
         loop
         muted
         playsInline
         poster="/images/hero.jpg"
       >
-        <source src="/images/flyover.mp4" type="video/mp4" />
+        <source src="/images/quickvid.mov" type="video/mp4" />
         <Image
           src="/images/hero.jpg"
           alt="Property Hero"
