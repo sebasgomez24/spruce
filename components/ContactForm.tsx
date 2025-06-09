@@ -8,14 +8,13 @@ const ContactForm: React.FC = () => {
     <section id="contact" className="w-full py-16 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8 text-gray-900">Contact Us</h2>
-        {submitted ? (
+        {typeof window !== 'undefined' && window.location.search.includes('success=true') ? (
           <div className="text-green-600 text-center text-lg font-medium">Thank you for your message!</div>
         ) : (
           <form
             action="https://formspree.io/f/xldngpbz"
             method="POST"
             className="space-y-6 bg-white p-8 rounded-lg shadow-md"
-            onSubmit={() => setSubmitted(true)}
           >
             <div>
               <label htmlFor="name" className="block text-gray-700 font-medium mb-2">Name</label>
@@ -53,6 +52,7 @@ const ContactForm: React.FC = () => {
             >
               Send Message
             </button>
+            <input type="hidden" name="_redirect" value="/contact?success=true" />
           </form>
         )}
       </div>
