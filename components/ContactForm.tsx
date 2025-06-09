@@ -1,9 +1,7 @@
 "use client";
-import React, { useState } from 'react';
+import React from 'react';
 
 const ContactForm: React.FC = () => {
-  const [submitted, setSubmitted] = useState(false);
-
   return (
     <section id="contact" className="w-full py-16 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4">
