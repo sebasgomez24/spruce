@@ -12,7 +12,7 @@ const ContactForm: React.FC = () => {
           <div className="text-green-600 text-center text-lg font-medium">Thank you for your message!</div>
         ) : (
           <form
-            action="https://formspree.io/f/xldngpbzf"
+            action="https://formspree.io/f/xldngpbz"
             method="POST"
             className="space-y-6 bg-white p-8 rounded-lg shadow-md"
             onSubmit={() => setSubmitted(true)}
